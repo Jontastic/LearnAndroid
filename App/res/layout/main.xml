@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/General_Button_Padding_20dp"
+        android:layout_marginRight="@dimen/General_Button_Padding_20dp"
+        android:layout_marginTop="@dimen/General_Button_Padding_20dp"
+        android:text="@string/Search_Button_WhenText" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/General_Button_Padding_20dp"
+        android:layout_marginRight="@dimen/General_Button_Padding_20dp"
+        android:layout_marginTop="@dimen/General_Button_Padding_20dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/General_Button_Padding_20dp"
+        android:layout_marginRight="@dimen/General_Button_Padding_20dp"
+        android:layout_marginTop="@dimen/General_Button_Padding_20dp" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/Search_SubmitButton_Text" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/Search_Textbox_DefaultMessage"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+</LinearLayout>
